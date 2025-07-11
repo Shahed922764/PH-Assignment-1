@@ -90,7 +90,6 @@ background-image: url("./Assets/Hero-bg.png");
 }
 
 /* Action Design*/
-
 body {
   font-family: "Arial", sans-serif;
   background-color: #f4f6fc;
@@ -156,7 +155,6 @@ body {
 }
 
 /* States Design */
-
 .stats-wrapper {
   background-color: #e9ebfd; 
   padding: 40px 20px;
@@ -198,7 +196,6 @@ body {
 }
 
 /* Testimonils Design */
-
 .testimonials-wrapper {
   max-width: 1200px;
   margin: 60px auto;
@@ -271,7 +268,6 @@ body {
 }
 
 /* CTA */
-
 .cta-wrapper {
   background: #ffffff;
   text-align: center;
@@ -315,7 +311,6 @@ body {
 }
 
 /* Contact */
-
 .contact-row {
   display: flex;
   justify-content: space-between;
