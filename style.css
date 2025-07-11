@@ -1,0 +1,430 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f7ff;
+  font-family: Arial, sans-serif;
+}
+
+.main-section{
+background-image: url("./Assets/Hero-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  padding-bottom: 104px;
+}
+
+/* Hero Section */
+.hero-section {
+  
+  color: #1a1a1a;
+  padding: 0 20px;
+}
+
+/* Top Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 60px;
+  width: 65%;
+  margin: auto;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+  color: #4f46e5;
+}
+
+.signup-btn {
+  padding: 10px 20px;
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.signup-btn:hover {
+  background-color: #4338ca;
+}
+
+/* Hero Content Center */
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.cta-btn {
+  padding: 12px 24px;
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.cta-btn:hover {
+  background-color: #4338ca;
+}
+
+/* Action Design*/
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f6fc;
+  margin: 0;
+  padding: 0;
+}
+
+.preview-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px;
+  gap: 60px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.preview-text {
+  flex: 1;
+}
+
+.preview-text h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 16px;
+}
+
+.preview-text p {
+  font-size: 16px;
+  color: #7a7a7a;
+  margin-bottom: 24px;
+  line-height: 1.6;
+}
+
+.preview-text button {
+  padding: 12px 20px;
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.preview-text button:hover {
+  background-color: #4338ca;
+}
+
+.preview-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.preview-image img {
+  width: 100%;
+  max-width: 450px;
+  border-radius: 32px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* States Design */
+
+.stats-wrapper {
+  background-color: #e9ebfd; 
+  padding: 40px 20px;
+  border-radius: 20px;
+  max-width: 1000px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.stats-header {
+  font-size: 28px;
+  font-weight: 700;
+  color: #111827; 
+  margin-bottom: 40px;
+}
+
+.stats-row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.stat-item {
+  text-align: center;
+  margin: 10px 20px;
+}
+
+.stat-item h2 {
+  font-size: 48px;
+  color: #4f46e5; 
+  margin: 0;
+}
+
+.stat-item p {
+  font-size: 18px;
+  color: #6b7280; 
+  margin: 8px 0 0;
+}
+
+/* Testimonils Design */
+
+.testimonials-wrapper {
+  max-width: 1200px;
+  margin: 60px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.testimonials-header {
+  font-size: 32px;
+  font-weight: 700;
+  color: #111827; 
+  margin-bottom: 40px;
+}
+
+.testimonials-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.testimonial-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 30px 20px;
+  width: 300px;
+  text-align: left;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.stars {
+  color: #facc15; 
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.testimonial-card h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #111827;
+  margin: 0 0 10px;
+}
+
+.testimonial-card p {
+  color: #374151;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0 0 20px;
+}
+
+.reviewer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.reviewer img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.reviewer strong {
+  color: #374151;
+}
+
+.review-date {
+  color: #9ca3af;
+  font-size: 14px;
+}
+
+/* CTA */
+
+.cta-wrapper {
+  background: #ffffff;
+  text-align: center;
+  padding: 60px 20px;
+  border-radius: 20px;
+  max-width: 1000px;
+  margin: 60px auto;
+}
+
+.cta-heading {
+  font-size: 32px;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 16px;
+}
+
+.cta-subtitle {
+  font-size: 16px;
+  color: #6b7280;
+  margin-bottom: 32px;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #4f46e5; 
+  color: #ffffff;
+  text-decoration: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+
+.cta-button:hover {
+  background-color: #4338ca; 
+}
+
+.cta-image img {
+  max-width: 100%;
+  border-radius: 30px;
+}
+
+/* Contact */
+
+.contact-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px;
+  max-width: 1400px;
+  margin: auto;
+}
+
+.contact-text {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 60px;
+}
+
+.contact-text h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #000;
+  margin: 0;
+  text-align: right;
+}
+
+.contact-form {
+  flex: 1.2;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.contact-form form {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  margin-top: 8px;
+  outline: none;
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.contact-form button {
+  margin-top: 30px;
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  padding: 14px;
+  font-size: 14px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #4338ca;
+}
+
+/* Footer */
+
+.hero-container {
+  text-align: center;
+  padding: 60px 20px;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff;
+}
+
+.footer-logo {
+  font-size: 64px;
+  color: #4444ff;
+  font-weight: 800;
+  margin: 0;
+}
+
+.tagline {
+  margin-top: 20px;
+  color: #888;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.nav-links {
+  margin-top: 30px;
+}
+
+.nav-links a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #888;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #4444ff;
+}
+
